@@ -1,12 +1,12 @@
-# 🕵️‍♂️ CTF (Capture The Flag) Challenges
+# CTF (Capture The Flag) Challenges
 
 This repository documents my learning and solutions related to Capture The Flag (CTF) challenges in the field of cybersecurity.
 
-## 📚 Contents
+## Contents
 
 - **Platforms:**
-  - [x] PicoCTF
   - [x] CyberTalents
+  - [ ] PicoCTF (coming soon)
   - [ ] TryHackMe (coming soon)
   - [ ] Hack The Box (coming soon)
 
@@ -25,12 +25,12 @@ Each folder contains:
 - Tools/commands used
 - Flags (obfuscated if needed)
 
-## 🧠 Purpose
+## Purpose
 
 This repo is for personal documentation and to help others understand approaches to solving CTF problems.  
 **All content is for educational and ethical purposes only.**
 
-## 🛠️ Tools I Use
+## 🛠Tools I Use
 
 - Burp Suite
 - Ghidra
@@ -39,10 +39,10 @@ This repo is for personal documentation and to help others understand approaches
 - Python, Bash
 - `strings`, `grep`, `xxd`, etc.
 
-## 📌 Note
+## Note
 
-> 🚨 Do NOT use these techniques on systems you do not own or have explicit permission to test.  
-> 🛡️ Stay ethical. Stay curious.
+> Do NOT use these techniques on systems you do not own or have explicit permission to test.  
+> 🛡Stay ethical. Stay curious.
 
 ---
 
