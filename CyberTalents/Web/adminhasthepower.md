@@ -55,7 +55,7 @@ admin
 You are now logged in as an **admin**, and the page reveals the **flag**.
 
 <details>
-<summary>🎉 Click to reveal the flag</summary>
+<summary> Click to reveal the flag</summary>
 
 ```
 hiadminyouhavethepower
@@ -65,30 +65,4 @@ hiadminyouhavethepower
 
 ---
 
-## Tools Used
 
-* **Browser DevTools** for source code inspection and cookie editing  
-* Knowledge of **HTML comments** and **cookie manipulation**
-
----
-
-## Vulnerabilities Demonstrated
-
-* **Security Misconfiguration** (leaked credentials in production HTML)  
-* **Privilege Escalation** via cookie tampering  
-* **Lack of proper role validation on the server side**
-
----
-
-## Tags
-
-`#CyberTalents` `#WebChallenge` `#CTF` `#CookieTampering` `#PrivilegeEscalation` `#OWASP` `#SecurityMisconfiguration`
-
----
-
-## Disclaimer
-
-This write-up is strictly for **educational and ethical purposes** only.  
-Do not attempt to exploit systems without proper authorization.
-
----
