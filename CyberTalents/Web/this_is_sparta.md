@@ -22,7 +22,7 @@ http://wcamxwl32pue3e6m4m2360mtg3016dv97d15t43l-web.cybertalentslabs.com
 
 ## Step 2: Analyze the JavaScript
 
-The page contains obfuscated JavaScript which controls the login validation:
+The page contains obfuscated JavaScript which controls the login validation.Press Ctrl+U or select View Page Source
 
 ```js
 var _0xae5b = [
@@ -36,18 +36,22 @@ var _0xae5b = [
 ];
 ```
 
-## Decoded Strings from Hex Escapes
 
-- Index 0: `\x76\x61\x6C\x75\x65` → **"value"**  
-- Index 1: `\x75\x73\x65\x72` → **"user"**  
-- Index 2: `\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64` → **"getElementById"**  
-- Index 3: `\x70\x61\x73\x73` → **"pass"**  
-- Index 4: `\x43\x79\x62\x65\x72\x2d\x54\x61\x6c\x65\x6e\x74` → **"Cyber-Talent"**  
-- Index 5: `\x20...` (spaces) + `\x43\x6F\x6E\x67\x72\x61\x74\x7A` + newlines → **"                    Congratz \n\n"**  
-- Index 6: `\x77\x72\x6F\x6E\x67\x20\x50\x61\x73\x73\x77\x6F\x72\x64` → **"wrong Password"**
+### Breakdown of the Array
+- Use Ascii decoder 
 
-Decoded:
+| Index | Hex String                                                                                                   | Decoded String          
+|-------|-------------------------------------------------------------------------------------------------------------|------------------------|
+| 0     | `\x76\x61\x6C\x75\x65`                                                                                      | `"value"`              |
+| 1     | `\x75\x73\x65\x72`                                                                                          | `"user"`               |
+| 2     | `\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64`                                                  | `"getElementById"`     |
+| 3     | `\x70\x61\x73\x73`                                                                                          | `"pass"`               |
+| 4     | `\x43\x79\x62\x65\x72\x2d\x54\x61\x6c\x65\x6e\x74`                                                          | `"Cyber-Talent"`       |
+| 5     | `\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x43\x6F\x6E\x67\x72\x61\x74\x7A\x20\x0A\x0A` | `"                    Congratz \n\n"` |
+| 6     | `\x77\x72\x6F\x6E\x67\x20\x50\x61\x73\x73\x77\x6F\x72\x64`                                                  | `"wrong Password"`     |
 
+
+### Decoded Strings from Hex Escapes:
 - Username : "Cyber-Talent"
 
 - Password : "Cyber-Talent"
