@@ -7,7 +7,7 @@ This repository documents my learning and solutions related to Capture The Flag 
 - **Platforms:**
   - [x] CyberTalents
   - [ ] PicoCTF (coming soon)
-  - [ ] TryHackMe (coming soon)
+  - [x] TryHackMe 
   - [ ] Hack The Box (coming soon)
 
 - **Categories:**
